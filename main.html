@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe Game</title>
+    <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <div id="form">
-        <input type="text" id="player1" placeholder="Player 1 Name">
-        <input type="text" id="player2" placeholder="Player 2 Name">
-        <button id="submit">Submit</button>
+    <div id="playerForm">
+        <h1>Tic Tac Toe</h1>
+
+        <div class="input-box">
+            <label>Player 1</label>
+            <input type="text" id="player-1" placeholder="enter name">
+        </div>
+
+        <div class="input-box">
+            <label>Player 2</label>
+            <input type="text" id="player-2" placeholder="enter name">
+        </div>
+
+        <button id="submit">Start Game</button>
     </div>
 
     <div id="game" style="display:none;">
